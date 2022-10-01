@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet');
+
+:root{
+	--background: linear-gradient(135deg, #667eea7e 0% #764ba298 100%);
+	--color-primary: #667eea;
+    --color-secundary: #764ba298;
+	--boton-padding: 20px 40px;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.container{
+	width:90%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 80px 0;
+	max-width: 1200px;
+	}
+
+.subtitle{
+	color: war(--color-primary);
+	font-size: 2.5rem;
+	margin-bottom: 35px; 
+}
+
+.hero{
+	height: 100vh;
+	background-image: var(--background), url('.../assets/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+}
+
+
+/* social */
+.social-body{
+	position:fixed;
+	top:50%;
+	left:30;
+	margin-top:-90px;
+	z-index:999;
+}
+.social-body ul li{
+	display:block;
+}
+.social-body ul li a{
+	font-size:30px;
+	color:#fff;
+	background:#42bc7f;
+	height: 70px;
+    width: 70px;
+	line-height:40px;
+	text-align:center;
+	display:block;
+	-webkit-transition:all 3.8s ease;
+	-moz-transition:all 3.8s ease;
+	transition:all 3.8s ease;
+}
+.social-body ul li a:hover{
+	width: 80;
+	height: 80;
+	
+}
+.social-body  ul li.facebook a{
+	background:#425F9C;
+}
+.social-body .ul li.twitter a{
+	background:#1DA1F3;
+}
+.social-body ul li.instagram a {
+	background: #E21B75;
+}
+.social-body ul li.pinterest a{
+	background:#CB2028;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+   	background-color: #333;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align:start;
+	padding: 5px;
+	width: 100%;
+	text-decoration: none;
+	
+}
+
+.activer {
+	background-color:#1DA1F3
+}
+
+.content {
+	margin-top: 70%;
+}

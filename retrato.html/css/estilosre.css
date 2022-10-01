@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2? family=Raleway:wght@400;800&display=swap');
+
+body{
+    fill-rule: 'Raleway', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+.subtitle {     
+    text-align: center;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    width: 100%;    
+        
+}
+
+.h2 {
+    text-align: center;
+    background: #cfcfd0;
+    width: 20%;
+    width: 20%; 
+    border-top: 5px solid #ffffff;
+    margin: 0;
+}
+
+.linea{
+   border-top: 5px solid #ffffff;
+   background: #333;  
+   width: 100%;
+   margin: 0;
+   
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+    padding: 20px;
+    
+}
+
+.gallery__img{
+    width: 98%;
+    height: 600px;
+    margin-bottom: 30px;
+    filter: brightness(60%);
+    object-fit: cover;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    animation: escalar 1.5s infinite alternate; 
+    width: 98%;
+
+}
+
+.gallery__item{
+    position: relative;
+
+}
+
+.gallery__title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 6%;
+    color: white;
+    background: #333;
+    width: 98%;
+    margin: 10;
+    
+
+  }
+
+ .gallery__item:nth-child(1) {
+    grid-column-start: span 1;
+    
+}
+
+.gallery__item:nth-child(2) {
+    grid-column-start: span 1;
+    
+}
+
+    
+.gallery__item:nth-child(3) {
+    grid-column-start: span 1;
+    
+}
+
+.gallery__item:nth-child(7) {
+    grid-column-start: span 1;
+    
+}
+
+/*PROYECTS*/
+
+.projects{
+    background: #cfcfd0;
+
+}
+
+.projects__grid{
+    display: grid;
+    height: 550px; 
+
+
+}
+
+
+
+
+
+
